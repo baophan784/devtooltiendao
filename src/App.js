@@ -46,7 +46,7 @@ function App() {
   const [touchStartTime, setTouchStartTime] = useState(0);
   const [touchStartPosition, setTouchStartPosition] = useState({ x: 0, y: 0 });
   const iframeRef = useRef(null);
-  const [iframeSrc, setIframeSrc] = useState("https://m.fly88s.biz/?id=162841257");
+  const [iframeSrc, setIframeSrc] = useState("https://tipslot.win/");
 
 
 
