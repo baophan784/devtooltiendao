@@ -506,7 +506,7 @@ function App() {
       overflow: 'hidden',
       position: 'fixed'
     }}>
-      <iframe
+      /*<iframe
         ref={iframeRef}
         src={iframeSrc}
         onLoad={handleIframeLoad}
@@ -538,8 +538,14 @@ function App() {
         title="F168 Frame"
         scrolling="no"
         sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation allow-modals"
+      />*/
+      <div
+        style={{
+          position: "fixed",
+          inset: 0,
+          background: "green"
+        }}
       />
-      
       <Menu
         avatarRef={avatarRef}
         resultRef={resultRef}
