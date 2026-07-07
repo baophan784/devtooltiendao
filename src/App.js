@@ -506,44 +506,12 @@ function App() {
       overflow: 'hidden',
       position: 'fixed'
     }}>
-      /*<iframe
-        ref={iframeRef}
-        src={iframeSrc}
-        onLoad={handleIframeLoad}
-        style={{ 
-          width: '100%', 
-          height: '100%', 
-          border: 'none',
-          overflow: 'hidden',
-          position: 'fixed',
-          color:'green',
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          userSelect: 'none',
-          WebkitUserSelect: 'none',
-          MozUserSelect: 'none',
-          msUserSelect: 'none',
-          touchAction: 'none',
-          WebkitTouchCallout: 'none',
-          WebkitUserDrag: 'none',
-          WebkitTapHighlightColor: 'transparent',
-          WebkitTextSizeAdjust: 'none',
-          textSizeAdjust: 'none',
-          fontSizeAdjust: 'none',
-          WebkitFontSmoothing: 'antialiased',
-          MozOsxFontSmoothing: 'grayscale'
-        }}
-        title="F168 Frame"
-        scrolling="no"
-        sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation allow-modals"
-      />*/
+
       <div
         style={{
           position: "fixed",
           inset: 0,
-          background: "green"
+          background: "#00ff00"
         }}
       />
       <Menu
