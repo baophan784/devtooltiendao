@@ -516,6 +516,7 @@ function App() {
           border: 'none',
           overflow: 'hidden',
           position: 'fixed',
+          color:green,
           top: 0,
           left: 0,
           right: 0,
